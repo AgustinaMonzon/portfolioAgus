@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
+
+.presentación{
+    max-width: 1400px;
+    height: 160vh;
+    margin: auto;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   padding-bottom: 200px;
+   margin-top: 40px;
+
+}
+.home{
+    color: black;
+font-size: 70px;
+}
+
+.h1{
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    display: block;
+    font-weight: 900;
+    text-align: center;
+    white-space: nowrap
+}
+
+.escritura{
+    font-size: 35px;
+    font-family: 'Cutive Mono', monospace;
+    color: rgb(0, 0, 0);
+    display: block;
+    border-right: 4px solid;
+    width: 26ch;
+    font-weight: 600;
+    white-space: nowrap;
+    animation: tipado 8s steps(25) alternate infinite;
+    overflow: hidden; 
+}
+
+@keyframes tipado {
+    from {
+        width: 0ch;
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
+.descripcion {
+    max-width: 700px;
+    margin: 25px auto;
+    font-size: 18px;
+    text-align: center;
+    color: black;
+}
+.habilidades{
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(0, 0, 0);
+    padding: 140px 0;
+    text-align: center;
+    margin-top: 5px;
+    
+
+}

@@ -1,0 +1,31 @@
+.containerAbout{
+    /* background-image: url("./../contacto.jpg"); */
+    background-color:rgba(255, 255, 255, 0.8);;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 1100px;
+    height: 800px;
+    
+
+    
+    
+}
+.h2{
+    text-align: center;
+    text-decoration:underline;
+    font-family: 'Open Sans', sans-serif;
+}
+.texto{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    margin: 30px;
+}
+.Link{
+    width: 100%;
+    padding-top: 8px;
+    justify-content: space-around;
+    display: flex;
+    
+}
