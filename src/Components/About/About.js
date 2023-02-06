@@ -50,9 +50,9 @@ const About = () => {
       <div className="containerAbout">
         <img className="yo" src={yo} alt="yo" />
         <p className="texto">
-          Soy Agustina del Luján Monzón, soy Full Stack Web Developer, con
-          experiencia realizando proyectos Full Stack desarrollados en el stack
-          PERN con React, Redux, PostgreSQL, Express, Node js, HTML, CSS,
+          Mi nombre es Agustina del Luján Monzón, soy Full Stack Web Developer,
+          con experiencia realizando proyectos Full Stack desarrollados en el
+          stack PERN con React, Redux, PostgreSQL, Express, Node js, HTML, CSS,
           Express, Java Script y Sequelize. Uno de los proyectos fue realizado
           en equipo utilizando SCRUM con sprints de una semana. <ul />
           Tengo experiencia previa durante 10 años como Profesora, lo que me
