@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
-
+@media (max-width: 1920px) {
 .presentación{
     max-width: 1400px;
     height: 160vh;
@@ -88,4 +88,4 @@
 }
 #habilidades img {
 margin: 15px 0 40px 25px;
-}
+}}
