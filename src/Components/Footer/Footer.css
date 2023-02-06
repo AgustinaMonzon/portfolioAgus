@@ -22,20 +22,19 @@
     color: black;
     font-weight: 400;
 }
-
-@media (max-width: 767px) {
-  .footer__copyright {
-    font-size: 12px;
+@media only screen and (max-width: 768px) {
+  .footer {
+    height: auto;
   }
-}
-
-.img{
-    position: absolute;
-    top:-4px;
-}
-
-@media (max-width: 767px) {
-  .img {
-    width: 50%;
+  .footer__social {
+    flex-direction:row-reverse;
+    align-items: center;
+  }
+  .a + a {
+    margin-left: 0;
+    margin-top: 8px;
+  }
+  .footer__copyright {
+    font-size: 14px;
   }
 }

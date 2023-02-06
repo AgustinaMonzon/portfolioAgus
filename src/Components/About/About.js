@@ -43,7 +43,7 @@ const testimonials = [
 
 const About = () => {
   return (
-    <div>
+    <div className="respon">
       <div className="h2">
         <h3>Sobre mi</h3>
       </div>

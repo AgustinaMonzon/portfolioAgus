@@ -1,4 +1,5 @@
 .containerAbout{
+    /* background-image: url("./../contacto.jpg"); */
     background-color:rgba(255, 255, 255, 0.8);;
     background-size: cover;
     background-repeat: no-repeat;
@@ -9,63 +10,10 @@
     display: flex;
     align-items: center;
 }
-
-@media (max-width: 992px) {
-    .containerAbout {
-        width: 80%;
-        margin-left: 10%;
-    }
-    .h2 {
-        font-size: 22px;
-    }
-    .texto {
-        font-size: 14px;
-        margin-bottom: 60px;
-        padding-top: 65px;
-    }
-    .yo {
-        height: 150px;
-        border-radius: 100px;
-        margin-bottom: 105px;   
-    }
-    .test {
-        top: 100px;
-    }
-    #testimonios {
-        margin-top: 180px;
-    }
-}
-
-@media (max-width: 768px) {
-    .containerAbout {
-        width: 100%;
-        margin-left: 0;
-    }
-    .h2 {
-        font-size: 20px;
-        text-align: center;
-    }
-    .texto {
-        font-size: 12px;
-        margin-bottom: 50px;
-        padding-top: 55px;
-    }
-    .yo {
-        height: 130px;
-        border-radius: 90px;
-        margin-bottom: 95px;   
-    }
-    .test {
-        top: 90px;
-    }
-    #testimonios {
-        margin-top: 170px;
-    }
-}
-
 .h2{
     text-align: center;
     font-weight: bold;
+    /* text-decoration:underline; */
     font-family: 'Open Sans', sans-serif;
     position: relative;
      top: 50px;
@@ -75,7 +23,8 @@
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     margin-bottom: 160px;
-    padding-top: 115px;   
+    padding-top: 115px;
+   
 }
 .Link{
     width: 100%;
@@ -86,6 +35,7 @@
 }
 .test{
     text-align: center;
+    /* text-decoration:underline; */
     font-family: 'Open Sans', sans-serif;
     text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
     font-weight: bold;
@@ -103,3 +53,35 @@
     margin-top: 230px;
     
   }
+  @media (max-width: 992px) {
+    .containerAbout {
+      width: 90%;
+      height: auto;
+      margin: 0 5%;
+    }
+    .h2 {
+      top: 10px;
+    }
+    .texto {
+      padding-top: 60px;
+    }
+    .test {
+      top: 100px;
+    }
+    .yo {
+      height: 150px;
+      margin-bottom: 100px;
+    }
+    #testimonios {
+      margin-top: 150px;
+
+    }
+    .respon{
+        background-image: url('../home.jpg');
+        background-size:cover;
+        background-repeat: no-repeat;
+        height: auto;
+       
+    }
+  }
+  
