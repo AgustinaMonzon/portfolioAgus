@@ -15,7 +15,8 @@
     "react-scripts": "1.1.1",
     "react-slick": "^0.29.0",
     "reactstrap": "^9.1.5",
-    "slick-carousel": "^1.8.1"
+    "slick-carousel": "^1.8.1",
+    "sweetalert": "^2.1.2"
   },
   "scripts": {
     "start": "react-scripts start",
