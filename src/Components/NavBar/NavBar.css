@@ -34,3 +34,8 @@
   background-color: rgba(255, 255, 255, 0.8);
   height: 120px;
 }
+.a{
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}

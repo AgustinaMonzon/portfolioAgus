@@ -1,0 +1,17 @@
+.testimonial {
+  padding: 40px;  
+  background-color:rgba(255, 255, 255, 0.8);;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.quote {
+  font-style: italic;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.author {
+  font-size: 20px;
+  font-weight: bold;
+}

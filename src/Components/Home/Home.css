@@ -9,13 +9,14 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-   padding-bottom: 200px;
-   margin-top: 40px;
+    margin-top: 60px;
+    padding-bottom: 60px;
 
 }
 .home{
     color: black;
-font-size: 70px;
+    font-size: 70px;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.8);
 }
 
 .h1{
@@ -28,7 +29,7 @@ font-size: 70px;
 }
 
 .escritura{
-    font-size: 35px;
+    font-size: 36px;
     font-family: 'Cutive Mono', monospace;
     color: rgb(0, 0, 0);
     display: block;
@@ -38,6 +39,7 @@ font-size: 70px;
     white-space: nowrap;
     animation: tipado 8s steps(25) alternate infinite;
     overflow: hidden; 
+
 }
 
 @keyframes tipado {
@@ -58,14 +60,32 @@ font-size: 70px;
     text-align: center;
     color: black;
 }
-.habilidades{
+.h3h{
+    font-size: 35px;
+    text-shadow: #fff;
+  
+
+}
+.habilidadess{
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     color: rgb(0, 0, 0);
     padding: 140px 0;
     text-align: center;
-    margin-top: 5px;
-    
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 20px;
 
+}
+
+#habilidades{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+ 
+}
+#habilidades img {
+margin: 15px 0 40px 25px;
 }

@@ -14,7 +14,7 @@ function DownloadCV() {
     <a
       className="link"
       href="https://drive.google.com/file/d/1ZxTc3_GSJXkWO5pHKUtTrS8a6wxv4-wL/view?usp=sharing"
-      onClick={handleDownload}
+      target="_blank"
     >
       Currículum Vitae
     </a>

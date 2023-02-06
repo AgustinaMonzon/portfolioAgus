@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
 import "./Contacto.css";
+import swal from "sweetalert";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -34,52 +35,62 @@ const Contact = () => {
       )
       .then((res) => {
         console.log("Email successfully sent!");
-        alert("Email sent successfully!");
+        swal({
+          text: "Email enviado correctamente",
+          icon: "success",
+        });
         setFormData({ name: "", email: "", message: "" });
       })
       .catch((err) => {
         console.error("Failed to send email:", err);
-        alert("Failed to send email, please try again later");
+        swal({
+          text: "Falló el envío de email",
+        });
       });
   };
 
   return (
     <form onSubmit={handleSubmit}>
-      <input
-        type="text"
-        name="name"
-        placeholder="Your Name"
-        value={formData.name}
-        onChange={handleChange}
-        className="form-input"
-      />
-      <input
-        type="email"
-        name="email"
-        placeholder="Your Email"
-        value={formData.email}
-        onChange={handleChange}
-        className="form-input"
-      />
-      <textarea
-        name="message"
-        placeholder="Your Message"
-        value={formData.message}
-        onChange={handleChange}
-        className="form-input"
-      />
-      <button
-        type="submit"
-        style={{
-          backgroundColor: "rgba(255, 169, 112, 0.703)",
-          color: "white",
-          padding: "10px 20px",
-          borderRadius: "5px",
-          alignItems: "center",
-        }}
-      >
-        Send Email
-      </button>
+      <div className="form">
+        {" "}
+        <input
+          type="text"
+          name="name"
+          placeholder="Tu nombre"
+          value={formData.name}
+          onChange={handleChange}
+          className="form-input"
+        />
+        <input
+          type="email"
+          name="email"
+          placeholder="Tu Email"
+          value={formData.email}
+          onChange={handleChange}
+          className="form-input"
+        />
+        <textarea
+          name="message"
+          placeholder="Escribe tu mensaje"
+          value={formData.message}
+          onChange={handleChange}
+          className="form-input"
+        />
+      </div>
+      <div style={{ display: "flex", justifyContent: "center" }}>
+        <button
+          type="submit"
+          style={{
+            backgroundColor: "black",
+            color: "white",
+            padding: "10px 20px",
+            borderRadius: "5px",
+            alignItems: "center",
+          }}
+        >
+          Enviar Email
+        </button>
+      </div>
     </form>
   );
 };

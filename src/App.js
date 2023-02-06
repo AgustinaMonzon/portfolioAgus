@@ -3,9 +3,10 @@ import Home from "./Components/Home/Home";
 import About from "./Components/About/About";
 import Resume from "./Components/Resume/Resume";
 import Portfolio from "./Components/Portfolio/Portfolio";
-import Testimonials from "./Components/Testimonials/Testimonials";
+import Testimonial from "./Components/Testimonial/TestimonialCarousel";
 import Contact from "./Components/Contact/Contact";
 import Footer from "./Components/Footer/Footer";
+import Habilidades from "./Components/Habilidades/Habilidades";
 
 class App extends Component {
   render() {
@@ -15,7 +16,8 @@ class App extends Component {
         <About />
         <Resume />
         <Portfolio />
-        <Testimonials />
+        <Testimonial />
+        <Habilidades />
         <Contact />
         <Footer />
       </div>
