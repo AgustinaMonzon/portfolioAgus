@@ -39,6 +39,11 @@ const testimonials = [
       "Agustina es una persona con muchas habilidades tech y soft skills. Trabajé con ella durante 6 meses y es una excelente compañera, sabe trabajar en equipo y agrega valor a cada persona. Yo la recomiendo 100% para trabajar en cualquier empresa, ella puede aportar mucho al equipo de trabajo.",
     author: "Melina Veyrat Durbex",
   },
+  {
+    quote:
+      "Agustina fue mi TA en mi tiempo de cursado dentro de Henry y puedo confirmar que es una de las personas mas capases que conozco, tiene un manejo de grupo extraordinario, liderazgo y las ganas de seguir aprendiendo constantemente. Hizo que cada uno de los encuentros que teníamos fuera distinto y espectacular. Es una persona que esta en constante aprendizaje , se nota en los proyectos que tiene que cada vez son mejores. Por eso para mi ,Agus es un muy buen ejemplo a seguir como persona y como Developer.",
+    author: "Lisandro Romero",
+  },
 ];
 
 const About = () => {

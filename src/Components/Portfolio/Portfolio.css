@@ -57,6 +57,12 @@
   text-decoration: none;
   color: black;
 }
+@media (max-width: 767px) {
+  .btn {
+    font-size: 14px;
+    padding: 10px;
+  }
+}
 
 .button:hover {
   background-color: rgba(255, 169, 112, 0.541);
@@ -70,18 +76,39 @@
   height: 80%;
   object-fit: cover;
 }
+@media (max-width: 700px) {
+  .project1 {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+  .project2 {
+    position: absolute;
+    top: 50px;
+    left: 10px;
+  }
+}
+
+
+@media (min-width: 768px) {
+  img {
+    max-width: 500px;
+  }
+}
+
+
+
+
 
 @media (max-width: 600px) {
   .container {
     width: 100%;
   }
 
-  .proyecto, .proyecto1 {
-    height: 50%;
-    bottom: 0;
-  }
+ 
 
   .info {
     font-size: 14px;
   }
 }
+
