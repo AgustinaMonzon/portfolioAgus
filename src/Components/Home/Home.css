@@ -95,10 +95,11 @@ margin: 15px 0 40px 25px;
     }
     .h1 {
       font-size: 36px;
+      text-align: center;
     }
     .escritura {
       font-size: 26px;
-      width: 18ch;
+      width: 26ch;
     }
     .descripcion {
       font-size: 16px;
