@@ -29,13 +29,13 @@ const Footer = () => (
       <a href="https://join.skype.com/invite/ecJhEJy8s4bY" target="_blank">
         <FaSkype size="40" color="#00AFF0" />
       </a>
-      <a
+      {/* <a
         href="https://wa.link/8daidi"
         target="_blank"
         rel="noopener noreferrer"
       >
         <img className="img" src={wapp} />
-      </a>
+      </a> */}
     </div>
     {/* <p className="footer__copyright">
       Seguime en mis redes <FaHeart color="#B51942" /> para conocerme.

@@ -97,6 +97,9 @@ margin: 15px 0 40px 25px;
       font-size: 36px;
       text-align: center;
     }
+    .home{
+        text-shadow: 2px 2px 4px rgb(242, 226, 226);
+    }
     .escritura {
       font-size: 26px;
       width: 26ch;
