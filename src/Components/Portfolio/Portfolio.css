@@ -76,19 +76,32 @@
   height: 80%;
   object-fit: cover;
 }
-@media (max-width: 700px) {
-  .project1 {
-    position: absolute;
-    top: 10px;
-    left: 10px;
+@media (max-width: 600px) {
+  .container {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
   }
-  .project2 {
-    position: absolute;
-    top: 50px;
-    left: 10px;
+
+  .proyecto, .proyecto1 {
+    width: 80%;
+    height: auto;
+    margin: 20px 0;
+    bottom: auto;
+  }
+
+  .info {
+    font-size: 14px;
+  }
+
+  .botones {
+    margin-top: 20px;
+  }
+
+  .button {
+    margin-top: 20px;
   }
 }
-
 
 @media (min-width: 768px) {
   img {
