@@ -44,6 +44,16 @@ const testimonials = [
       "Agustina fue mi TA en mi tiempo de cursado dentro de Henry y puedo confirmar que es una de las personas mas capases que conozco, tiene un manejo de grupo extraordinario, liderazgo y las ganas de seguir aprendiendo constantemente. Hizo que cada uno de los encuentros que teníamos fuera distinto y espectacular. Es una persona que esta en constante aprendizaje , se nota en los proyectos que tiene que cada vez son mejores. Por eso para mi ,Agus es un muy buen ejemplo a seguir como persona y como Developer.",
     author: "Lisandro Romero",
   },
+  {
+    quote:
+      "Agus es una persona excepcional, la conocí mientras trabajaba como Henry assistant en soy Henry y la verdad me encantó la experiencia de estar en su mismo equipo.La gran cantidad de propuestas y iniciativas que vinieron de ella en esa instancia fueron sorprendentes, su pasión y compromiso por lo que hace la destaca y estimula a los demás, es muy carismática y llena de energía. No tengo que pensar dos veces antes de afirmar que será una excelente aportación a cualquier equipo en qué participe.",
+    author: "Matheus Oliveira Teixeira",
+  },
+  {
+    quote:
+      "Agustina es una persona perseverante, dedicada, solidaria con su grupo de trabajo. Talentosa como líder de grupo: Como Teaching Assistant se brindaba en su totalidad a formar un grupo integro y homogéneo. Carácter firme pero flexible para empatizar con sus compañeros.",
+    author: "Pedro Torcuato Insausti",
+  },
 ];
 
 const About = () => {
