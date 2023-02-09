@@ -58,19 +58,29 @@
       width: 90%;
       height: auto;
       margin: 0 5%;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
     }
     .h2 {
-      top: 10px;
+      top: 15px;
+      font-weight: bold;
     }
     .texto {
-      padding-top: 60px;
+      padding-top:1px;
+      font-weight: bold;
+      padding: 8px;
     }
     .test {
       top: 100px;
     }
     .yo {
-      height: 150px;
-      margin-bottom: 100px;
+      height:200px;
+      border-radius: 130px;
+      margin-bottom: 40px; 
+      margin-top: 20px;  
+      order: -1;
+     
     }
     #testimonios {
       margin-top: 150px;

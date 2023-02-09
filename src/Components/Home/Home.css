@@ -98,7 +98,12 @@ margin: 15px 0 40px 25px;
       text-align: center;
     }
     .home{
-        text-shadow: 2px 2px 4px rgb(242, 226, 226);
+        text-align: center;
+        font-weight: bold;
+        padding: 10px;
+        border-radius: 10px;
+        text-shadow: 3px 4px #fff;
+  
     }
     .escritura {
       font-size: 26px;

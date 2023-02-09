@@ -10,49 +10,84 @@ const Contact = () => {
     message: "",
   });
 
+  const [errors, setErrors] = useState({
+    nameError: "",
+    emailError: "",
+    messageError: "",
+  });
+
   const handleChange = (e) => {
     setFormData({
       ...formData,
       [e.target.name]: e.target.value,
     });
+    setErrors({
+      ...errors,
+      [e.target.name + "Error"]: "",
+    });
+  };
+
+  const validate = () => {
+    let nameError = "";
+    let emailError = "";
+    let messageError = "";
+
+    if (!formData.name) {
+      nameError = "Por favor ingrese su nombre";
+    }
+
+    if (!formData.email) {
+      emailError = "Por favor ingrese su correo electrónico";
+    }
+
+    if (!formData.message) {
+      messageError = "Por favor escriba su mensaje";
+    }
+
+    if (nameError || emailError || messageError) {
+      setErrors({ nameError, emailError, messageError });
+      return false;
+    }
+
+    return true;
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    const isValid = validate();
+    if (isValid) {
+      const templateParams = {
+        name: formData.name,
+        email: formData.email,
+        message: formData.message,
+      };
 
-    const templateParams = {
-      name: formData.name,
-      email: formData.email,
-      message: formData.message,
-    };
-
-    emailjs
-      .send(
-        "service_9jbojtl",
-        "template_aqnrvlq",
-        templateParams,
-        "D5OjuYBEv9e6mWj1g"
-      )
-      .then((res) => {
-        console.log("Email successfully sent!");
-        swal({
-          text: "Email enviado correctamente",
-          icon: "success",
+      emailjs
+        .send(
+          "service_9jbojtl",
+          "template_aqnrvlq",
+          templateParams,
+          "D5OjuYBEv9e6mWj1g"
+        )
+        .then((res) => {
+          console.log("Email successfully sent!");
+          swal({
+            text: "Email enviado correctamente",
+            icon: "success",
+          });
+          setFormData({ name: "", email: "", message: "" });
+        })
+        .catch((err) => {
+          console.error("Failed to send email:", err);
+          swal({
+            text: "Falló el envío de email",
+          });
         });
-        setFormData({ name: "", email: "", message: "" });
-      })
-      .catch((err) => {
-        console.error("Failed to send email:", err);
-        swal({
-          text: "Falló el envío de email",
-        });
-      });
+    }
   };
-
   return (
     <form onSubmit={handleSubmit}>
       <div className="form">
-        {" "}
         <input
           type="text"
           name="name"
@@ -61,6 +96,9 @@ const Contact = () => {
           onChange={handleChange}
           className="form-input"
         />
+        {!formData.name && errors.nameError && (
+          <span style={{ color: "red" }}>{errors.nameError}</span>
+        )}
         <input
           type="email"
           name="email"
@@ -69,6 +107,9 @@ const Contact = () => {
           onChange={handleChange}
           className="form-input"
         />
+        {!formData.email && errors.emailError && (
+          <span style={{ color: "red" }}>{errors.emailError}</span>
+        )}
         <textarea
           name="message"
           placeholder="Escribe tu mensaje"
@@ -76,6 +117,9 @@ const Contact = () => {
           onChange={handleChange}
           className="form-input"
         />
+        {!formData.message && errors.messageError && (
+          <span style={{ color: "red" }}>{errors.messageError}</span>
+        )}
       </div>
       <div style={{ display: "flex", justifyContent: "center" }}>
         <button
