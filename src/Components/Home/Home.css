@@ -96,6 +96,8 @@ margin: 15px 0 40px 25px;
     .h1 {
       font-size: 36px;
       text-align: center;
+      background-color:rgba(255, 255, 255, 0.253);
+      width: 100%;
     }
     .home{
         text-align: center;
