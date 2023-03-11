@@ -5,7 +5,7 @@ function DownloadCV() {
   const handleDownload = () => {
     const link = document.createElement("a");
     link.href =
-      "https://drive.google.com/file/d/1ZxTc3_GSJXkWO5pHKUtTrS8a6wxv4-wL/view?usp=sharing";
+      "https://docs.google.com/document/d/1uBZyH3Lezb_-eGEXYQYxUh1vlQyZbiuQiYP638QDFD8/edit?usp=sharing";
     link.download = "cv.pdf";
     link.click();
   };
@@ -13,7 +13,7 @@ function DownloadCV() {
   return (
     <a
       className="link"
-      href="https://drive.google.com/file/d/1ZxTc3_GSJXkWO5pHKUtTrS8a6wxv4-wL/view?usp=sharing"
+      href="https://docs.google.com/document/d/1uBZyH3Lezb_-eGEXYQYxUh1vlQyZbiuQiYP638QDFD8/edit?usp=sharing"
       target="_blank"
     >
       Currículum Vitae
