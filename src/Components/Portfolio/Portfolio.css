@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Macondo&display=swap");
 
 .container {
   height: 80vw;
@@ -9,7 +9,10 @@
   justify-content: space-between;
   margin-top: 40px;
 }
-
+p {
+  text-align: justify;
+  padding: 7px;
+}
 .content {
   height: 80vw;
   width: 100%;
@@ -20,7 +23,7 @@
   font-size: 18px;
   text-transform: initial;
   color: #000000;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   margin-top: 25px;
 }
 
@@ -29,7 +32,8 @@
   font-weight: 900;
 }
 
-.proyecto, .proyecto1 {
+.proyecto,
+.proyecto1 {
   width: 100%;
   height: 70%;
   color: #fff;
@@ -67,11 +71,12 @@
 .button:hover {
   background-color: rgba(255, 169, 112, 0.541);
   border: 2px solid white;
-  transition: .5s;
+  transition: 0.5s;
   color: black;
 }
 
-.proyecto img, .proyecto1 img {
+.proyecto img,
+.proyecto1 img {
   width: 100%;
   height: 80%;
   object-fit: cover;
@@ -83,11 +88,12 @@
     flex-direction: column;
   }
 
-  .proyecto, .proyecto1 {
+  .proyecto,
+  .proyecto1 {
     width: 80%;
     height: auto;
     margin: 20px 0;
-    bottom:50px;
+    bottom: 50px;
   }
 
   .info {
@@ -109,19 +115,12 @@
   }
 }
 
-
-
-
-
 @media (max-width: 600px) {
   .container {
     width: 100%;
   }
 
- 
-
   .info {
     font-size: 14px;
   }
 }
-
