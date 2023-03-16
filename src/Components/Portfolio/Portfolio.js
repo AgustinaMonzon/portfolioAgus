@@ -92,7 +92,6 @@ function Portfolio() {
             </div>
           </div>
         </div>
-      </div>
 <div className="proyecto">
           <div className="info">
             <h4 className="h3">
@@ -130,6 +129,8 @@ function Portfolio() {
             </div>
           </div>
         </div>
+      </div>
+
     </div>
   );
 }
