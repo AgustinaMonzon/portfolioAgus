@@ -2,6 +2,8 @@ import React from "react";
 import "./Portfolio.css";
 import SimpleSlider from "./SimpleSlider";
 import SimpleSlider2 from "./SimpleSlider2";
+import SimpleSlider3 from "./SimpleSlider3";
+
 
 function Portfolio() {
   return (
@@ -91,6 +93,43 @@ function Portfolio() {
           </div>
         </div>
       </div>
+<div className="proyecto">
+          <div className="info">
+            <h4 className="h3">
+              <strong>RR Consultoría</strong>
+            </h4>
+            <br />
+            <p>
+              La página está dividida en dos sectores de servicios: uno para
+              candidatos y otro para empresas, para que puedan encontrar
+              fácilmente el servicio que necesitan. También incluimos un "about"
+              sobre la consultora y sobre las profesionales para que los
+              usuarios puedan conocerlas mejor. Además, agregamos una sección
+              para que los usuarios puedan cargar su CV, donde también los
+              llevamos a completar un formulario de Google. También incluimos
+              una sección de contacto más directa donde utilizamos MailJS para
+              asegurarnos de que los potenciales clientes puedan contactarse de
+              manera fácil y rápida. Utilizamos las siguientes tecnologías:react
+              Chakra-UI, cloudinary.
+            </p>
+            <SimpleSlider3 />
+            <br />
+            <br />
+            <div className="botones">
+              {/* <a
+                href="https://test-deploy-topaz-nine.vercel.app/"
+                target="_blank"
+                class="button"
+              >
+                {" "}
+                Demo
+              </a> */}
+              <a href="rrconsultoria.com.ar" target="_blank" class="button">
+                Link
+              </a>
+            </div>
+          </div>
+        </div>
     </div>
   );
 }
