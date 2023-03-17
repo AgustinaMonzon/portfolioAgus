@@ -54,6 +54,21 @@ const testimonials = [
       "Agustina es una persona perseverante, dedicada, solidaria con su grupo de trabajo. Talentosa como líder de grupo: Como Teaching Assistant se brindaba en su totalidad a formar un grupo integro y homogéneo. Carácter firme pero flexible para empatizar con sus compañeros.",
     author: "Pedro Torcuato Insausti",
   },
+  {
+    quote:
+      "Durante mi tiempo como Asistente de Enseñanza Full-Stack en SoyHenry, Agustina fue mi líder y una figura clave en mi desarrollo profesional. Desde el primer día, ella demostró ser una persona extremadamente comprensiva y comprometida, siempre dispuesta a ayudarnos y aconsejarnos en todo lo que necesitábamos. Una de las cosas que más aprecié de Agustina fue su capacidad para escucharnos y comprender nuestras necesidades individuales. Ella siempre estaba dispuesta a ofrecernos consejos prácticos y soluciones creativas para ayudarnos a enfrentar los desafíos diarios que encontrábamos en el SUPP. Además, estaba siempre dispuesta a trabajar con nosotros para encontrar formas de mejorar nuestra eficacia y productividad.Lo que más aprecié de Agustina fue su compromiso con nuestro bienestar. Ella siempre se aseguraba de que nos sintiéramos cómodos y seguros en nuestro trabajo, y siempre estaba buscando maneras de hacer que nuestra experiencia fuera lo más agradable posible. Gracias a ella, me sentí apoyado y motivado durante todo mi tiempo en SoyHenry.",
+    author: "Marcos Hernán Parella",
+  },
+  {
+    quote:
+      "Tuve la suerte de conocer a Agustina como TA de su grupo y entre todos hicimos un equipo solido y de confianza. Esto me habilita a conocer su personalidad y cualidades. Ella es una excelente persona que nunca se rinde y encara los objetivos con mucha garra hasta llegar a ellos. Muy despierta, enérgica , siempre aportando mejoras (Le han aceptado ideas nuevas en Henry y han sido implementadas), estudiosa, muy hábil, preparada para encontrar la solución de cualquier tipo de problema, y sobre todo destaco su compañerismo y su encantadora onda.",
+    author: "Patricio Uskaer",
+  },
+  {
+    quote:
+      "Agustina,Paso mi taller de capacitación para candidatos en búsqueda activa de empleo.Un placer haberla capacitado una persona que tiene mucho compromiso, dedicación. Una profesional que tiene una enorme humildad para aprender. Lo que más destaco de ella es su creatividad y su versatilidad.Es una persona muy dispuesta a seguir aprendiendo e incorporar nuevos lenguajes de programación. Sin lugar a duda, su pasión es el mundo de la tecnología.Tiene todas las condiciones para liderar, es una profesional que motiva mucho y creadora de una buena sinergia. Muy bien preparada para asumir un nuevo desafío laboral y formar parte de un equipo de trabajo.",
+    author: "Romina Blanco",
+  },
 ];
 
 const About = () => {
