@@ -1,121 +1,114 @@
-@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
-.presentación{
-    max-width: 1400px;
-    height: 160vh;
-    margin: auto;
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 60px;
-    padding-bottom: 60px;
-
+@import url("https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap");
+.presentación {
+  max-width: 1400px;
+  height: 160vh;
+  margin: auto;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+  padding-bottom: 60px;
 }
-.home{
-    color: black;
-    font-size: 70px;
-    text-shadow: 2px 2px 2px rgba(0,0,0,0.8);
-}
-
-.h1{
-    font-size: 50px;
-    color: rgb(0, 0, 0);
-    display: block;
-    font-weight: 900;
-    text-align: center;
-    white-space: nowrap
+.home {
+  color: black;
+  font-size: 70px;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
 }
 
-.escritura{
-    font-size: 36px;
-    font-family: 'Cutive Mono', monospace;
-    color: rgb(0, 0, 0);
-    display: block;
-    border-right: 4px solid;
-    width: 26ch;
-    font-weight: 600;
-    white-space: nowrap;
-    animation: tipado 8s steps(25) alternate infinite;
-    overflow: hidden; 
-    transition: translateY(50px);
+.h1 {
+  font-size: 50px;
+  color: rgb(0, 0, 0);
+  display: block;
+  font-weight: 900;
+  text-align: center;
+  white-space: nowrap;
+}
 
+.escritura {
+  font-size: 36px;
+  font-family: "Cutive Mono", monospace;
+  color: rgb(0, 0, 0);
+  display: block;
+  border-right: 4px solid;
+  width: 26ch;
+  font-weight: 600;
+  white-space: nowrap;
+  animation: tipado 8s steps(25) alternate infinite;
+  -webkit-animation: tipado 8s steps(25) alternate infinite;
+  overflow: hidden;
+  transition: translateY(50px);
 }
 
 @keyframes tipado {
-    from {
-        width: 0ch;
-    }
+  from {
+    width: 0ch;
+  }
 }
 
 @keyframes blink {
-    50% {
-        border-color: transparent;
-    }
+  50% {
+    border-color: transparent;
+  }
 }
 .descripcion {
-    max-width: 700px;
-    margin: 25px auto;
-    font-size: 18px;
-    text-align: center;
-    color: black;
+  max-width: 700px;
+  margin: 25px auto;
+  font-size: 18px;
+  text-align: center;
+  color: black;
 }
-.h3h{
-    font-size: 35px;
-    text-shadow: #fff;
-  
-
+.h3h {
+  font-size: 35px;
+  text-shadow: #fff;
 }
-.habilidadess{
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: rgb(0, 0, 0);
-    padding: 140px 0;
-    text-align: center;
-    justify-content: space-between;
-    margin-top: 10px;
-    margin-bottom: 20px;
-
+.habilidadess {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: rgb(0, 0, 0);
+  padding: 140px 0;
+  text-align: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
-#habilidades{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 20px;
- 
+#habilidades {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
 }
 #habilidades img {
-margin: 15px 0 40px 25px;
+  margin: 15px 0 40px 25px;
 }
 @media only screen and (max-width: 768px) {
-    .presentación {
-      height: auto;
-      padding: 40px;
-    }
-    .h1 {
-      font-size: 36px;
-      text-align: center;
-      width: 100%;
-    }
-    .home{
-        text-align: center;
-        font-weight: bold;
-        padding: 10px;
-        border-radius: 10px;
-        text-shadow: 3px 4px #fff;
-  
-    }
-    .escritura {
-      font-size: 26px;
-      width: 26ch;
-    }
-    .descripcion {
-      font-size: 16px;
-    }
-    .habilidadess {
-      padding: 80px 0;
-    }
+  .presentación {
+    height: auto;
+    padding: 40px;
   }
-  
+  .h1 {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+  }
+  .home {
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+    text-shadow: 3px 4px #fff;
+  }
+  .escritura {
+    font-size: 26px;
+    width: 26ch;
+  }
+  .descripcion {
+    font-size: 16px;
+  }
+  .habilidadess {
+    padding: 80px 0;
+  }
+}
