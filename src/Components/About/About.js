@@ -69,6 +69,17 @@ const testimonials = [
       "Agustina,Paso mi taller de capacitación para candidatos en búsqueda activa de empleo.Un placer haberla capacitado una persona que tiene mucho compromiso, dedicación. Una profesional que tiene una enorme humildad para aprender. Lo que más destaco de ella es su creatividad y su versatilidad.Es una persona muy dispuesta a seguir aprendiendo e incorporar nuevos lenguajes de programación. Sin lugar a duda, su pasión es el mundo de la tecnología.Tiene todas las condiciones para liderar, es una profesional que motiva mucho y creadora de una buena sinergia. Muy bien preparada para asumir un nuevo desafío laboral y formar parte de un equipo de trabajo.",
     author: "Romina Blanco",
   },
+  
+   {
+    quote:
+     "Conocí a Agustina durante mi periodo como TA en Henry, y desde el minuto 1 fue un placer tenerla como Henry Assistant. Es una persona super capaz que posee una condición no tan frecuente, que es la de ser una excelente persona con cualidades humanas muy importantes y al mismo tiempo tener las mismas capacidades técnicas que se requiere para ser Full Stack Developer.Trabajar con Agus es algo muy fácil y agradable, siempre con energía, simpatía, predispuesta a dar su ayuda en cualquier momento. Además, tiene cualidades de manejo de grupo excepcionales, el liderazgo es algo muy natural en ella. Recomiendo ampliamente a Agustina! cualquier proyecto o empresa que la sume a su equipo sumara talento, capacidad y don de gente en un nivel muy importante!",
+    author: "Bruno Buglioni",
+  },
+     {
+    quote:
+       "Contratamos a Agustina para realizar la pagina Web de la empresa, y realmente entendió a la perfección todas las necesidades que teníamos en mente. Es una persona muy profesional para trabajar, dedicada y se nota que le apasiona lo que hace. Tiene un fuerte compromiso y orientación a los resultados. Sin dudas la volvería a elegir",
+    author: "Nahir Reverdito",
+  }
 ];
 
 const About = () => {
