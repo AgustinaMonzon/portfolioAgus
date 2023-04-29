@@ -40,7 +40,7 @@
   animation: tipado 8s steps(27) alternate infinite;
   overflow: hidden; 
   transition: translateY(50px);
-  line-height: 0.05;
+  line-height: 0.01;
 }
 
 @keyframes tipado {
