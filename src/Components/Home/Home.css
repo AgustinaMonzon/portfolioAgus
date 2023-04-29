@@ -33,7 +33,7 @@
   color: rgb(0, 0, 0);
   display: block;
   border-right: 4px solid;
-  width: 30ch; /* aumenta el ancho del elemento */
+  width: 60ch;
   font-weight: 600;
   white-space: nowrap;
   animation: tipado 8s steps(25) alternate infinite;
