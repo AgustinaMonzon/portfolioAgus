@@ -36,11 +36,12 @@
   width: 26ch;
   font-weight: 600;
   white-space: nowrap;
-  animation: tipado 8s steps(25) alternate infinite;
+  animation: tipado 8s steps(27) alternate infinite;
   overflow: hidden; 
   transition: translateY(50px);
-  line-height: 1.5;
+  line-height: 0.1;
 }
+
 
 }
 
