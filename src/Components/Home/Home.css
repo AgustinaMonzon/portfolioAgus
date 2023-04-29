@@ -38,6 +38,7 @@
   animation: tipado 8s steps(25) alternate infinite;
   overflow: hidden;
   transition: translateY(50px);
+  line-height: 0.8;
   letter-spacing: 4px;
 }
 
