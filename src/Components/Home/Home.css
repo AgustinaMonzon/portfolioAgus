@@ -27,6 +27,7 @@
 }
 
 .escritura {
+.escritura {
   font-size: 36px;
   font-family: 'Cutive Mono', monospace;
   color: rgb(0, 0, 0);
@@ -36,10 +37,11 @@
   font-weight: 600;
   white-space: nowrap;
   animation: tipado 8s steps(25) alternate infinite;
-  overflow: hidden;
+  overflow: hidden; 
   transition: translateY(50px);
-  line-height: 0.2;
-  letter-spacing: 4px;
+  line-height: 1.5;
+}
+
 }
 
 
