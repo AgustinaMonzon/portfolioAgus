@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap");
 .presentación {
   max-width: 1400px;
   height: 160vh;
@@ -28,18 +27,20 @@
 }
 
 .escritura {
- font-size: 36px;
-  font-family: 'Roboto', sans-serif;
+  font-size: 36px;
+  font-family: 'Cutive Mono', monospace;
   color: rgb(0, 0, 0);
   display: block;
   border-right: 4px solid;
-  width: 60ch;
+  width: 26ch;
   font-weight: 600;
   white-space: nowrap;
   animation: tipado 8s steps(25) alternate infinite;
-  overflow: hidden; 
+  overflow: hidden;
   transition: translateY(50px);
+  letter-spacing: 4px;
 }
+
 
 
 @keyframes tipado {
