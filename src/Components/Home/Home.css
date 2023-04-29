@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap");
+
 .presentación {
   max-width: 1400px;
   height: 160vh;
@@ -11,6 +12,7 @@
   margin-top: 60px;
   padding-bottom: 60px;
 }
+
 .home {
   color: black;
   font-size: 70px;
@@ -27,7 +29,6 @@
 }
 
 .escritura {
-.escritura {
   font-size: 36px;
   font-family: 'Cutive Mono', monospace;
   color: rgb(0, 0, 0);
@@ -41,11 +42,6 @@
   transition: translateY(50px);
   line-height: 0.1;
 }
-
-
-}
-
-
 
 @keyframes tipado {
   from {
@@ -66,56 +62,5 @@
   text-align: center;
   color: black;
 }
-.h3h {
-  font-size: 35px;
-  text-shadow: #fff;
-}
-.habilidadess {
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: rgb(0, 0, 0);
-  padding: 140px 0;
-  text-align: center;
-  justify-content: space-between;
-  margin-top: 10px;
-  margin-bottom: 20px;
-}
 
-#habilidades {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 20px;
-}
-#habilidades img {
-  margin: 15px 0 40px 25px;
-}
-@media only screen and (max-width: 768px) {
-  .presentación {
-    height: auto;
-    padding: 40px;
-  }
-  .h1 {
-    font-size: 36px;
-    text-align: center;
-    width: 100%;
-  }
-  .home {
-    text-align: center;
-    font-weight: bold;
-    padding: 10px;
-    border-radius: 10px;
-    text-shadow: 3px 4px #fff;
-  }
-  .escritura {
-    font-size: 26px;
-    width: 26ch;
-  }
-  .descripcion {
-    font-size: 16px;
-  }
-  .habilidadess {
-    padding: 80px 0;
-  }
-}
+.h3h {
