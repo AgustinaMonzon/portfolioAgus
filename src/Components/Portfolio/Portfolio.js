@@ -3,6 +3,7 @@ import "./Portfolio.css";
 import SimpleSlider from "./SimpleSlider";
 import SimpleSlider2 from "./SimpleSlider2";
 import SimpleSlider3 from "./SimpleSlider3";
+import SimpleSlider4 from "./SimpleSlider4";
 
 
 function Portfolio() {
