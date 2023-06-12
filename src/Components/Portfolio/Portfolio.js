@@ -127,6 +127,43 @@ function Portfolio() {
           </div>
         </div>
       </div>
+                <div className="proyecto">
+  <div className="info">
+    <h4 className="h3">
+      <strong>Proyecto de Backend con Arquitectura de Microservicios</strong>
+    </h4>
+    <br />
+    <p>
+      Durante este proyecto de upskilling en backend, tuve la oportunidad de
+      sumergirme en el fascinante mundo de la arquitectura de microservicios.
+      Utilicé una arquitectura basada en microservicios para modularizar y
+      desacoplar diferentes componentes, logrando así una mayor escalabilidad y
+      flexibilidad. Además, integré MongoDB como base de datos NoSQL y utilicé
+      Docker Compose para el despliegue efectivo de los microservicios.
+    </p>
+    <SimpleSlider4 />
+    <br />
+    <br />
+    <div className="botones">
+       <a
+        href="https://github.com/AgustinaMonzon/star_wars"
+        target="_blank"
+        class="button"
+      >
+        {" "}
+        GitHub
+      </a> 
+      <a
+        href="https://hub.docker.com/r/agustinaskis/starwars"
+        target="_blank"
+        class="button"
+      >
+        Docker Hub
+      </a>
+    </div>
+  </div>
+</div>
+
 
     </div>
   );
