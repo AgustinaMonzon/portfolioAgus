@@ -1,107 +1,107 @@
-.containerAbout{
-    /* background-image: url("./../contacto.jpg"); */
-    background-color:rgba(255, 255, 255, 0.8);;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin-top: 90px;
-    margin-left: 25px;
-    width: 1300px;
-    height: 400px;    
+.containerAbout {
+  /* background-image: url("./../contacto.jpg"); */
+  background-color: rgba(255, 255, 255, 0.8);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 90px;
+  margin-left: 25px;
+  width: 1200px;
+  height: 430px;
+  display: flex;
+  align-items: center;
+}
+
+.h2 {
+  text-align: center;
+  font-weight: bold;
+  /* text-decoration:underline; */
+  font-family: 'Open Sans', sans-serif;
+  position: relative;
+  top: 50px;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.texto {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  margin-bottom: 160px;
+  padding-top: 115px;
+}
+
+.Link {
+  width: 100%;
+  padding-top: 8px;
+  justify-content: space-around;
+  display: flex;
+}
+
+.test {
+  text-align: center;
+  /* text-decoration:underline; */
+  font-family: 'Open Sans', sans-serif;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+  top: 190px;
+  position: relative;
+}
+
+.yo {
+  height: 200px;
+  border-radius: 130px;
+  margin-bottom: 155px;
+}
+
+#testimonios {
+  margin-top: 210px;
+}
+
+@media (max-width: 992px) {
+  .containerAbout {
+    width: 90%;
+    height: 1200px;
+    margin: 0 5%;
     display: flex;
     align-items: center;
-}
-.h2{
-    text-align: center;
+    flex-direction: column;
+    margin-top: 25px;
+    border-radius: 15px;
+  }
+
+  .h2 {
+    top: 15px;
     font-weight: bold;
-    /* text-decoration:underline; */
-    font-family: 'Open Sans', sans-serif;
-    position: relative;
-     top: 50px;
-     text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
-}
-.texto{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    margin-bottom: 160px;
-    padding-top: 115px;
-   
-}
-.Link{
-    width: 100%;
-    padding-top: 8px;
-    justify-content: space-around;
-    display: flex;
-    
-}
-.test{
-    text-align: center;
-    /* text-decoration:underline; */
-    font-family: 'Open Sans', sans-serif;
-    text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+
+  .texto {
+    padding-top: 1px;
     font-weight: bold;
-    top: 150px;
-    position: relative;
-    
-}
-.yo {
-    height:200px;
+    padding: 8px;
+  }
+
+  .test {
+    top: 100px;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-top: 10px;
+  }
+
+  .yo {
+    height: 200px;
     border-radius: 130px;
-    margin-bottom: 155px;   
+    margin-bottom: 40px;
+    margin-top: 40px;
+    order: -1;
   }
 
-  #testimonios{
-    margin-top: 230px;
-    
+  #testimonios {
+    margin-top: 120px;
   }
-  @media (max-width: 992px) {
-    .containerAbout {
-      width: 90%;
-      height: 1200px;
-      margin: 0 5%;
-      display: flex;
-      align-items: center;
-      flex-direction: column;
-      margin-top:25px ;
-      border-radius: 15px;
-    }
-    .h2 {
-      top: 15px;
-      font-weight: bold;
-    background-color:rgba(255, 255, 255, 0.8);;
 
-    }
-    .texto {
-      padding-top:1px;
-      font-weight: bold;
-      padding: 8px;
-    }
-    .test {
-     top: 100px;
-     font-weight: bold;
-     background-color:rgba(255, 255, 255, 0.8);
-     margin-top: 10px;
-  
-    }
-    .yo {
-      height:200px;
-      border-radius: 130px;
-      margin-bottom: 40px; 
-      margin-top: 40px;  
-      order: -1;
-     
-    }
-  
-    #testimonios {
-      margin-top: 120px;
-      
-
-    }
-    .respon{
-        background-image: url('../home.jpg');
-        background-size:cover;
-        background-repeat: no-repeat;
-        height: auto;
-       
-    }
+  .respon {
+    background-image: url('../home.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
   }
-  
+}

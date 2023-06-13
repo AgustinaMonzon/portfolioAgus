@@ -79,6 +79,10 @@ const testimonials = [
     quote:
        "Contratamos a Agustina para realizar la pagina Web de la empresa, y realmente entendió a la perfección todas las necesidades que teníamos en mente. Es una persona muy profesional para trabajar, dedicada y se nota que le apasiona lo que hace. Tiene un fuerte compromiso y orientación a los resultados. Sin dudas la volvería a elegir",
     author: "Nahir Reverdito",
+  },
+  {
+    quote: "Agustina fue mi coordinadora en Soy Henry, mientras me desempeñaba como TA. Fue una gran experiencia gracias al buen manejo que Agustina tuvo sobre el grupo. Durante la experiencia nos aportó mucho, capacitandonos, estando pendiente de cualquier eventualidad y siendo una gran figura de apoyo en todo momento.También nos motivo para trabajar nuestro desarrollo personal y de nuestras habilidades blandas. Su personalidad animada y empática la convirtió en una gran líder para todo el equipo, y su gran ética nos hizo a todos confiar en ella en todo momento. Su desempeño como Hnery Assistant fue sobresaliente y estoy seguro de que sería una excelente adición para cualquier equipo en el que se encuentre.",
+    author: "Daniel Burgos",
   }
 ];
 
@@ -86,34 +90,23 @@ const About = () => {
   return (
     <div className="respon">
       <div className="h2">
-        <h3>Sobre mi</h3>
+        <h3>Sobre mí</h3>
       </div>
       <div className="containerAbout">
         <img className="yo" src={yo} alt="yo" />
         <p className="texto">
-          Mi nombre es Agustina del Luján Monzón, soy Full Stack Web Developer,
-          con experiencia realizando proyectos Full Stack desarrollados en el
-          stack PERN con React, Redux, PostgreSQL, Express, Node js, HTML, CSS,
-          Express, Java Script y Sequelize. Uno de los proyectos fue realizado
-          en equipo utilizando SCRUM con sprints de una semana. <ul />
-          Tengo experiencia previa durante 10 años como Profesora, lo que me
-          permitió desarrollar habilidades como liderazgo, capacidad de trabajar
-          en ambientes colaborativos, creatividad, expansión de mis
-          conocimientos y ganas de tener un aprendizaje continuo. <ul />
-          Soy una persona proactiva con excelente formación académica,
-          resiliente y con buenos valores; lo cual me hace una profesional muy
-          comprometida y apasionada en lo que hago, con pensamiento analítico y
-          creativo, en búsqueda activa de resultados y resolución de problemas,
-          orientación, integración y excelente trabajo en equipo, empatía,
-          iniciativa, curiosidad y dedicación a lo que hago. <ul />
-          Tengo experiencia trabajando con tecnologías como: JavaScript, React,
-          NodeJS, PostgreSQL, Redux, Express, y tambien trabajando con la
-          metodología: SCRUM
+          <span className="bold">Mi nombre es Agustina del Luján Monzón</span>, soy Full Stack Web Developer, con experiencia realizando proyectos Full Stack desarrollados en el stack PERN con React, Redux, PostgreSQL, Express, Node.js, HTML, CSS, JavaScript y Sequelize.
+          <br /><br />
+          <span className="bold">Tengo experiencia previa durante 10 años como Profesora</span>, lo que me permitió desarrollar habilidades como liderazgo, capacidad de trabajar en ambientes colaborativos, creatividad, expansión de mis conocimientos y ganas de tener un aprendizaje continuo.
+          <br /><br />
+          Soy una persona proactiva con excelente formación académica, resiliente y con buenos valores; lo cual me hace una profesional muy comprometida y apasionada en lo que hago, con pensamiento analítico y creativo, en búsqueda activa de resultados y resolución de problemas, orientación, integración y excelente trabajo en equipo, empatía, iniciativa, curiosidad y dedicación a lo que hago.
+          <br /><br />
+          <span className="bold">Tengo experiencia trabajando con tecnologías como:</span> JavaScript, React, Node.js, PostgreSQL, Redux y Express.
+          <br /><br />
+          Además, he trabajado con la metodología SCRUM y tengo experiencia en Microservicios, Docker, MongoDB y Mongoose.
+          <br /><br />
+          Actualmente, estoy obteniendo certificaciones de Azure y soy desarrolladora front-end voluntaria en Awaq Estaciones Biológicas.
         </p>
-
-        {/* <a className="Link" href="mailto: agusdlmonzon@gmail.com" target="_blank">
-        <FaEnvelope size="40" color="black" />
-      </a> */}
       </div>
       <div className="test">
         <h3>Testimonios</h3>

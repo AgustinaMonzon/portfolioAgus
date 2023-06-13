@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
-import imagen from "./upb1.jpeg";
-import imagen2 from "./upb2.jpeg";
-import imagen3 from "./upb3.jpeg";
-import imagen4 from "./upb4.jpeg";
+import imagen from "./upb1.png";
+import imagen2 from "./upb2.png";
+import imagen3 from "./upb3.png";
+import imagen4 from "./upb4.png";
 
 export default class SimpleSlider extends Component {
   render() {
